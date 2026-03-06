@@ -17,3 +17,16 @@ A minimal local agent built with:
 
 ```bash
 ollama pull qwen2.5:7b-instruct-q4_K_M
+
+## RUN
+```bash
+pip install openai
+python app.py
+
+
+
+tools.py: local tools
+
+agent_loop.py: agent loop and tool calling
+
+app.py: CLI entry
